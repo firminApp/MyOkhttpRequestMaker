@@ -40,7 +40,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
-    //implementation 'com.github.firminApp::MyOkhttpRequestMaker:-SNAPSHOT'
+    //implementation 'com.github.firminApp:MyOkhttpRequestMaker:1.0'
+// implementation projects(':MyOkhttpRequestMaker')
     //compile 'com.github.firminApp:FormGeneratorDemo:-SNAPSHOT'
     //implementation 'com.gitlab.jitpack.firmin:MyOkhttpRequestMaker:-SNAPSHOT'
 }
