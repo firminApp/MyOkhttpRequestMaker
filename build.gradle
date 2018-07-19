@@ -1,6 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
-
+group= 'com.github.firminApp'
 
 android {
     compileSdkVersion 26
@@ -40,7 +40,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.squareup.okhttp3:okhttp:3.10.0'
-    implementation 'com.github.firminApp::MyOkhttpRequestMaker:-SNAPSHOT'
+    //implementation 'com.github.firminApp::MyOkhttpRequestMaker:-SNAPSHOT'
     //compile 'com.github.firminApp:FormGeneratorDemo:-SNAPSHOT'
     //implementation 'com.gitlab.jitpack.firmin:MyOkhttpRequestMaker:-SNAPSHOT'
 }
